@@ -17,7 +17,7 @@ protocol VideoModelDelegate {
 class VideoModel: NSObject {
     
     let API_URL = "https://www.googleapis.com/youtube/v3/playlistItems"
-    let API_KEY = "AIzaSyB5t2r4e97CKsUCrxRfnBb7HF5H7beMooc"
+    let API_KEY = // API Key goes here
     let PLAYLIST_ID = "PLMRqhzcHGw1aLoz4pM_Mg2TewmJcMg9ua"
     
     var videoArray = [Video]()
